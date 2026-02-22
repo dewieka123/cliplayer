@@ -1,0 +1,1 @@
+sudo cp /Volumes/cliplayer/cliplayer /usr/local/bin
