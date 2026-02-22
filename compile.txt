@@ -1,0 +1,8 @@
+// For Intel Mac
+clang -framework Foundation -framework AVFoundation -ledit -arch x86_64 cliplayer.m -o cliplayer
+
+// For Apple Silicon Mac
+clang -framework Foundation -framework AVFoundation -ledit -arch arm64 cliplayer.m -o cliplayer
+
+// For Universal
+clang -framework Foundation -framework AVFoundation -ledit -arch x86_64 -arch arm64 cliplayer.m -o cliplayer
